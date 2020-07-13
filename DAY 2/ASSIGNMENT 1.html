@@ -1,0 +1,19 @@
+<html>
+    <head>
+    <title>ASSIGNMENT 1</title>
+    </head>
+    <body>
+    <h1>Hii Everyone </h1>
+    <p id="demo"></p>
+    <script>
+        var d = new Date();
+        var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        document.getElementById("demo").innerHTML = "Today is: " + days[d.getDay()];
+    </script> 
+    <p id="demo2"></p>
+    <script>
+        var d = new Date();
+        document.getElementById("demo2").innerHTML = "Current time is: " + d.getHours() + " : " + d.getMinutes() + " : " + d.getSeconds();
+    </script>
+    </body>
+</html>
